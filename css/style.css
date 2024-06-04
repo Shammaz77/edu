@@ -1,0 +1,216 @@
+.nav-main{
+  display: flex;
+  align-items: center;
+	justify-content: space-between;
+}
+
+.bg-main{
+  background-image: url('../images//bg.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  border-radius: 10px;
+}
+.txt-main{
+  color: #fff;
+  padding-bottom: 15px;
+}
+.sub-heading-home{
+  color: #fff;
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+.bg-main .row{
+  align-items: center;
+}
+.explore-btn{
+  color: #fff;
+  padding: 5px 15px !important;
+  font-size: 15px !important;
+}
+.women-img{
+  width: max-content;
+  margin: auto;
+  display: table;
+}
+/* education partners section  */
+.education-partner-section{
+  margin: 30px 0px;
+}
+.partners{
+  width: 100%;
+  margin: auto;
+  display:flex;
+  padding: 10px;
+}
+.partners{
+
+}
+.main-dv-partner{
+  border-radius: 10px;
+}
+.logo-partner{
+  width: 18%;
+  margin: auto;
+  display:flex;
+}
+.edu-txt{
+  color: #fff;
+  padding-top: 9px;
+}
+.blog-txt{
+  text-align: center;
+  padding-bottom: 23px;
+  padding-top: 10px;
+}
+.blog-sub{
+  font-size: 15px;
+}
+.img-blog{
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 14px;
+}
+.bloh-head-txt{
+  padding-bottom: 8px;
+}
+.bloh-head-txtt{
+  font-size: 17px;
+}
+.blog-inner{
+  margin-bottom: 15px;
+}
+.footer-head{
+  color: #fff;
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+footer{
+  background: #120331;
+  padding: 40px 0px;
+  margin-top: 40px;
+}
+.footr-sub{
+  padding-bottom: 15px;
+  color: #fff;
+  font-weight: 400;
+  font-size: 15px;
+}
+.news{
+  padding: 50px 10px;
+  border-radius: 20px;
+}
+.news-txt{
+  text-align: center;
+  padding-bottom: 15px;
+}
+.input-main{
+  width: 400px !important;
+  margin: auto;
+}
+.input-main .form-control:focus{
+  background-color: #ABA0F6;
+}
+.input-main .form-control{
+  background-color: #ABA0F6;
+  border: none;
+  padding: 10px 20px;
+}
+.input-main .form-control::placeholder{
+  color: #FFF;
+}
+.btn-sub{
+  border-radius: 0px !important;
+}
+.newsletter{
+  margin-top: 30px;
+}
+.contact-btn{
+  color: #fff;
+  border-radius: 5px !important;
+  padding: 9px 15px !important;
+}
+img.work-img{
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+@media (min-width:2200px) {
+  .container-main{
+    width: 70%;
+    margin: auto;
+  }
+}
+@media (min-width:1900px) {
+  .container-main{
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media (max-width:991px) {
+  .nav-items .nav-item{
+    display: none;
+  }
+  .partners {
+      display: block;
+  }
+  .logo-partner {
+    width: 25%;
+    margin: unset;
+    display: unset;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width:550px) {
+  .bg-main {
+    padding: 29px;
+  }
+  .txt-main {
+    padding-bottom: 15px;
+    font-size: 28px;
+  }
+  .sub-heading-home {
+    font-size: 13px;
+  }
+  .women-img {
+    width: 60%;
+    margin-top: 20px;
+  }
+  .edu-txt {
+    font-size: 18px;
+  } 
+  .blog-txt {
+    padding-bottom: 16px;
+    font-size: 18px;
+  }
+  .education-partner-section {
+    margin: 30px 0px 15px 0px;
+  }
+  .bloh-head-txt {
+    padding-bottom: 2px;
+    font-size: 17px;
+  }
+  .blog-sub {
+    font-size: 13px;
+  }
+  .news-txt {
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 19px;
+  }
+  .input-main {
+    width: 90% !important;
+    margin: auto;
+}
+.inner-footer{
+  margin-bottom: 15px;
+}
+.nav-items i{
+  font-size: 29px;
+}
+}
+
+
